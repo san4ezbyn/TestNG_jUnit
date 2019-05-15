@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MySuite" verbose="1">
+
+    <test name="ClassRunner">
+
+        <classes>
+            <class name="myTestNG.Sum"></class>
+            <class name="myTestNG.Multiplication"></class>
+            <class name="myTestNG.Subtraction"></class>
+
+        </classes>
+    </test>
+</suite>
