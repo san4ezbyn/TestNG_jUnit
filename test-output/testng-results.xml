@@ -1,224 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="14" passed="14">
+<testng-results skipped="1" failed="2" total="14" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="MySuite (1)" duration-ms="15" started-at="2019-05-15T08:45:45Z" finished-at="2019-05-15T08:45:45Z">
+  <suite name="MySuite (1)" duration-ms="15" started-at="2019-05-15T11:28:46Z" finished-at="2019-05-15T11:28:46Z">
     <groups>
       <group name="symma">
-        <method signature="Multiplication.resultMultDouble()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="resultMultDouble" class="myTestNG.Multiplication"/>
-        <method signature="Sum.resultSumDouble()[pri:1, instance:myTestNG.Sum@2280cdac]" name="resultSumDouble" class="myTestNG.Sum"/>
-        <method signature="Sum.resultSumLong()[pri:2, instance:myTestNG.Sum@2280cdac]" name="resultSumLong" class="myTestNG.Sum"/>
+        <method signature="Multiplication.resultMultDouble()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="resultMultDouble" class="myTestNG.Multiplication"/>
+        <method signature="Sum.resultSumDouble()[pri:1, instance:myTestNG.Sum@b065c63]" name="resultSumDouble" class="myTestNG.Sum"/>
+        <method signature="Sum.resultSumLong()[pri:2, instance:myTestNG.Sum@b065c63]" name="resultSumLong" class="myTestNG.Sum"/>
       </group> <!-- symma -->
       <group name="multiplication">
-        <method signature="Multiplication.resuiltMultLong()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="resuiltMultLong" class="myTestNG.Multiplication"/>
+        <method signature="Multiplication.resuiltMultLong()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="resuiltMultLong" class="myTestNG.Multiplication"/>
       </group> <!-- multiplication -->
     </groups>
-    <test name="ClassRunner" duration-ms="15" started-at="2019-05-15T08:45:45Z" finished-at="2019-05-15T08:45:45Z">
+    <test name="ClassRunner" duration-ms="15" started-at="2019-05-15T11:28:46Z" finished-at="2019-05-15T11:28:46Z">
       <class name="myTestNG.Sum">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Sum@2280cdac]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Sum@2280cdac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="resultSumDouble()[pri:1, instance:myTestNG.Sum@2280cdac]" name="resultSumDouble" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultSumDouble -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Sum@2280cdac]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Sum@b065c63]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="resultSumLong()[pri:2, instance:myTestNG.Sum@2280cdac]" name="resultSumLong" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="resultSumLong()[pri:2, instance:myTestNG.Sum@b065c63]" name="resultSumLong" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultSumLong -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Sum@2280cdac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="resultSumDouble()[pri:1, instance:myTestNG.Sum@b065c63]" name="resultSumDouble" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Sum@2280cdac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Sum@2280cdac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="resultOfSumDouble2()[pri:0, instance:myTestNG.Sum@2280cdac]" name="resultOfSumDouble2" duration-ms="0" depends-on-groups="symma" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultOfSumDouble2 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Sum@2280cdac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Sum@2280cdac]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- myTestNG.Sum -->
-      <class name="myTestNG.Multiplication">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        </test-method> <!-- resultSumDouble -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Sum@b065c63]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Sum@b065c63]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="resuiltMultLong()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="resuiltMultLong" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Sum@b065c63]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Sum@b065c63]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Sum@b065c63]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="resultOfSumDouble2()[pri:0, instance:myTestNG.Sum@b065c63]" name="resultOfSumDouble2" duration-ms="0" depends-on-groups="symma" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Sum.resultOfSumDouble2()[pri:0, instance:myTestNG.Sum@b065c63] depends on not successfully finished methods in group "symma"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Sum.resultOfSumDouble2()[pri:0, instance:myTestNG.Sum@b065c63] depends on not successfully finished methods in group "symma"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1211)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at runner.MySuiteRunner.main(MySuiteRunner.java:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultOfSumDouble2 -->
+      </class> <!-- myTestNG.Sum -->
+      <class name="myTestNG.Multiplication">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="resuiltMultLong()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="resuiltMultLong" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resuiltMultLong -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="resultMultDouble()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="resultMultDouble" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="resultMultDouble()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="resultMultDouble" duration-ms="1" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.1] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.1] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at myTestNG.Multiplication.resultMultDouble(Multiplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1211)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at runner.MySuiteRunner.main(MySuiteRunner.java:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultMultDouble -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Multiplication@4fccd51b]" name="afterClass" is-config="true" duration-ms="2" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Multiplication@490d6c15]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- myTestNG.Multiplication -->
       <class name="myTestNG.Subtraction">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="resultSubDouble()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="resultSubDouble" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="resultSubDouble()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="resultSubDouble" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultSubDouble -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="resultSubLong()[pri:0, instance:myTestNG.Subtraction@44e81672]" name="resultSubLong" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="resultSubLong()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="resultSubLong" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultSubLong -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Subtraction@7d4793a8]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- myTestNG.Subtraction -->
     </test> <!-- ClassRunner -->
   </suite> <!-- MySuite (1) -->
-  <suite name="MySuite (0)" duration-ms="11" started-at="2019-05-15T08:45:45Z" finished-at="2019-05-15T08:45:45Z">
+  <suite name="MySuite (0)" duration-ms="7" started-at="2019-05-15T11:28:46Z" finished-at="2019-05-15T11:28:46Z">
     <groups>
     </groups>
-    <test name="Division test" duration-ms="11" started-at="2019-05-15T08:45:45Z" finished-at="2019-05-15T08:45:45Z">
+    <test name="Division test" duration-ms="7" started-at="2019-05-15T11:28:46Z" finished-at="2019-05-15T11:28:46Z">
       <class name="myTestNG.Division">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Division@6c629d6e]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:myTestNG.Division@2280cdac]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="resultDivDouble()[pri:0, instance:myTestNG.Division@6c629d6e]" name="resultDivDouble" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultDivDouble -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="resultDivDouble3()[pri:0, instance:myTestNG.Division@6c629d6e]" name="resultDivDouble3" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resultDivDouble3 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="resultDivLong()[pri:0, instance:myTestNG.Division@6c629d6e]" name="resultDivLong" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="resultDivLong()[pri:0, instance:myTestNG.Division@2280cdac]" name="resultDivLong" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultDivLong -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="resultDivLong3()[pri:0, instance:myTestNG.Division@6c629d6e]" name="resultDivLong3" duration-ms="1" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="resultDivLong3()[pri:0, instance:myTestNG.Division@2280cdac]" name="resultDivLong3" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultDivLong3 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@6c629d6e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Division@6c629d6e]" name="afterClass" is-config="true" duration-ms="4" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="resultDivDouble()[pri:0, instance:myTestNG.Division@2280cdac]" name="resultDivDouble" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultDivDouble -->
+        <test-method status="PASS" signature="resultDivDouble3()[pri:0, instance:myTestNG.Division@2280cdac]" name="resultDivDouble3" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultDivDouble3 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:myTestNG.Division@2280cdac]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:myTestNG.Division@2280cdac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- myTestNG.Division -->
     </test> <!-- Division test -->
   </suite> <!-- MySuite (0) -->
-  <suite name="My some suite tests" duration-ms="0" started-at="2019-05-15T08:45:45Z" finished-at="2019-05-15T08:45:45Z">
+  <suite name="My some suite tests" duration-ms="0" started-at="2019-05-15T11:28:47Z" finished-at="2019-05-15T11:28:47Z">
     <groups>
     </groups>
   </suite> <!-- My some suite tests -->
-  <suite name="MySuite" duration-ms="62" started-at="2019-05-15T08:45:45Z" finished-at="2019-05-15T08:45:45Z">
+  <suite name="MySuite" duration-ms="43" started-at="2019-05-15T11:28:46Z" finished-at="2019-05-15T11:28:46Z">
     <groups>
       <group name="symma">
-        <method signature="Multiplication.resultMultDouble()[pri:0, instance:myTestNG.Multiplication@7cef4e59]" name="resultMultDouble" class="myTestNG.Multiplication"/>
-        <method signature="Sum.resultSumDouble()[pri:1, instance:myTestNG.Sum@5679c6c6]" name="resultSumDouble" class="myTestNG.Sum"/>
-        <method signature="Sum.resultSumLong()[pri:2, instance:myTestNG.Sum@5679c6c6]" name="resultSumLong" class="myTestNG.Sum"/>
+        <method signature="Multiplication.resultMultDouble()[pri:0, instance:myTestNG.Multiplication@6d1e7682]" name="resultMultDouble" class="myTestNG.Multiplication"/>
+        <method signature="Sum.resultSumDouble()[pri:1, instance:myTestNG.Sum@1996cd68]" name="resultSumDouble" class="myTestNG.Sum"/>
+        <method signature="Sum.resultSumLong()[pri:2, instance:myTestNG.Sum@1996cd68]" name="resultSumLong" class="myTestNG.Sum"/>
       </group> <!-- symma -->
     </groups>
-    <test name="sum" duration-ms="62" started-at="2019-05-15T08:45:45Z" finished-at="2019-05-15T08:45:45Z">
+    <test name="sum" duration-ms="43" started-at="2019-05-15T11:28:46Z" finished-at="2019-05-15T11:28:46Z">
       <class name="myTestNG.Sum">
-        <test-method status="PASS" signature="resultSumDouble()[pri:1, instance:myTestNG.Sum@5679c6c6]" name="resultSumDouble" duration-ms="26" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="resultSumDouble()[pri:1, instance:myTestNG.Sum@1996cd68]" name="resultSumDouble" duration-ms="18" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultSumDouble -->
-        <test-method status="PASS" signature="resultSumLong()[pri:2, instance:myTestNG.Sum@5679c6c6]" name="resultSumLong" duration-ms="0" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="PASS" signature="resultSumLong()[pri:2, instance:myTestNG.Sum@1996cd68]" name="resultSumLong" duration-ms="0" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultSumLong -->
       </class> <!-- myTestNG.Sum -->
       <class name="myTestNG.Multiplication">
-        <test-method status="PASS" signature="resultMultDouble()[pri:0, instance:myTestNG.Multiplication@7cef4e59]" name="resultMultDouble" duration-ms="1" started-at="2019-05-15T11:45:45Z" finished-at="2019-05-15T11:45:45Z">
+        <test-method status="FAIL" signature="resultMultDouble()[pri:0, instance:myTestNG.Multiplication@6d1e7682]" name="resultMultDouble" duration-ms="1" started-at="2019-05-15T14:28:46Z" finished-at="2019-05-15T14:28:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.1] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.1] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at myTestNG.Multiplication.resultMultDouble(Multiplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1211)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at runner.MySuiteRunner.main(MySuiteRunner.java:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resultMultDouble -->

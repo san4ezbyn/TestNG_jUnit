@@ -1,7 +1,7 @@
 package jUnitTests;
 
 
-import calculator.Calculator;
+import com.epam.tat.module4.Calculator;
 import org.junit.Before;
 import org.junit.BeforeClass;
 

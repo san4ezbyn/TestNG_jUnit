@@ -55,9 +55,9 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ClassRunner</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 15 11:45:45 MSK 2019</td>
+<td>Started on:</td><td>Wed May 15 14:28:46 MSK 2019</td>
 </tr>
 <tr><td>Total time:</td><td>0 seconds (15 ms)</td>
 </tr><tr>
@@ -67,6 +67,52 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='myTestNG.Multiplication.resultMultDouble()'><b>resultMultDouble</b><br>Test class: myTestNG.Multiplication</td>
+<td><div><pre>java.lang.AssertionError: expected [0.1] but found [0.0]
+	at myTestNG.Multiplication.resultMultDouble(Multiplication.java:19)
+	at runner.MySuiteRunner.main(MySuiteRunner.java:29)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace288665596", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace288665596'><pre>java.lang.AssertionError: expected [0.1] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:167)
+	at myTestNG.Multiplication.resultMultDouble(Multiplication.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1211)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at runner.MySuiteRunner.main(MySuiteRunner.java:29)
+</pre></div></td>
+<td>0</td>
+<td>myTestNG.Multiplication@490d6c15</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -78,37 +124,60 @@ function toggleAllBoxes() {
 <td title='myTestNG.Multiplication.resuiltMultLong()'><b>resuiltMultLong</b><br>Test class: myTestNG.Multiplication</td>
 <td></td>
 <td>0</td>
-<td>myTestNG.Multiplication@4fccd51b</td></tr>
-<tr>
-<td title='myTestNG.Multiplication.resultMultDouble()'><b>resultMultDouble</b><br>Test class: myTestNG.Multiplication</td>
-<td></td>
-<td>0</td>
-<td>myTestNG.Multiplication@4fccd51b</td></tr>
-<tr>
-<td title='myTestNG.Sum.resultOfSumDouble2()'><b>resultOfSumDouble2</b><br>Test class: myTestNG.Sum</td>
-<td></td>
-<td>0</td>
-<td>myTestNG.Sum@2280cdac</td></tr>
+<td>myTestNG.Multiplication@490d6c15</td></tr>
 <tr>
 <td title='myTestNG.Subtraction.resultSubDouble()'><b>resultSubDouble</b><br>Test class: myTestNG.Subtraction</td>
 <td></td>
 <td>0</td>
-<td>myTestNG.Subtraction@44e81672</td></tr>
+<td>myTestNG.Subtraction@7d4793a8</td></tr>
 <tr>
 <td title='myTestNG.Subtraction.resultSubLong()'><b>resultSubLong</b><br>Test class: myTestNG.Subtraction</td>
 <td></td>
 <td>0</td>
-<td>myTestNG.Subtraction@44e81672</td></tr>
+<td>myTestNG.Subtraction@7d4793a8</td></tr>
 <tr>
 <td title='myTestNG.Sum.resultSumDouble()'><b>resultSumDouble</b><br>Test class: myTestNG.Sum</td>
 <td></td>
 <td>0</td>
-<td>myTestNG.Sum@2280cdac</td></tr>
+<td>myTestNG.Sum@b065c63</td></tr>
 <tr>
 <td title='myTestNG.Sum.resultSumLong()'><b>resultSumLong</b><br>Test class: myTestNG.Sum</td>
 <td></td>
 <td>0</td>
-<td>myTestNG.Sum@2280cdac</td></tr>
+<td>myTestNG.Sum@b065c63</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='myTestNG.Sum.resultOfSumDouble2()'><b>resultOfSumDouble2</b><br>Test class: myTestNG.Sum</td>
+<td><div><pre>java.lang.Throwable: Method Sum.resultOfSumDouble2()[pri:0, instance:myTestNG.Sum@b065c63] depends on not successfully finished methods in group &quot;symma&quot;
+	at runner.MySuiteRunner.main(MySuiteRunner.java:29)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1134712904", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1134712904'><pre>java.lang.Throwable: Method Sum.resultOfSumDouble2()[pri:0, instance:myTestNG.Sum@b065c63] depends on not successfully finished methods in group &quot;symma&quot;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1211)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at runner.MySuiteRunner.main(MySuiteRunner.java:29)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MySuite (1)]">
+  <test name="ClassRunner(failed)">
+    <classes>
+      <class name="myTestNG.Multiplication">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="resultMultDouble"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- myTestNG.Multiplication -->
+      <class name="myTestNG.Sum">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="resultSumDouble"/>
+          <include name="resultOfSumDouble2"/>
+          <include name="resultSumLong"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- myTestNG.Sum -->
+      <class name="myTestNG.Subtraction">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- myTestNG.Subtraction -->
+    </classes>
+  </test> <!-- ClassRunner(failed) -->
+</suite> <!-- Failed suite [MySuite (1)] -->
