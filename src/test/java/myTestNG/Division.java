@@ -2,7 +2,6 @@ package myTestNG;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.Date;
 
 public class Division extends myBaseCalculatorClass {
@@ -15,10 +14,16 @@ public class Division extends myBaseCalculatorClass {
         checkTime();
     }
 
-    // @Test
+   @Test(expectedExceptions = NumberFormatException.class)
     public void resultDivLong2() {
         long resultDivLong = calculator.div(9, 0);
         Assert.assertEquals(resultDivLong, 0);
+    }
+    @Test(expectedExceptions = AssertionError.class)
+    public void resultDivLongExcep() {
+        long resultDivLong = calculator.div(9, 3);
+        Assert.assertEquals(resultDivLong, 4);
+        checkTime();
     }
 
     @Test
